@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- [Code](https://github.com/christy313/front-end-mentor/tree/qr-code/001-qr-code)
-- [Live Demo](https://your-live-site-url.com)
+- [Code](https://github.com/christy313/fementor/tree/main/001-qr-code)
+- [Live Demo](https://fementor-001-qr-code.netlify.app/)
 
 ## My process
 
