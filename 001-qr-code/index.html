@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+      body {
+        background: #d6e2f0;
+        font-family: "Outfit", sans-serif;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+      }
+
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 80vh;
+        margin: 2rem;
+      }
+
+      main {
+        max-width: 60vw;
+        height: auto;
+        background: white;
+        border-radius: 12px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      img {
+        max-width: 60vw;
+        height: auto;
+        border-radius: 18px;
+      }
+
+      article {
+        padding: 10px;
+      }
+
+      h3 {
+        font-weight: 700;
+      }
+
+      p {
+        font-weight: 400;
+        color: #7b879d;
+      }
+
+      footer {
+        text-align: center;
+        margin: 0;
+      }
+
+      footer a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+      }
+
+      @media screen and (min-width: 768px) {
+        body {
+          font-size: 20px;
+        }
+
+        section {
+          margin: 5rem;
+          max-height: 70vh;
+        }
+
+        main {
+          max-width: 40vw;
+          max-height: 100vh;
+        }
+
+        img {
+          max-width: 40vw;
+        }
+
+        h3 {
+          font-weight: 500;
+        }
+      }
+
+      @media screen and (min-width: 1024px) {
+        main {
+          max-height: 110vh;
+          max-width: 25vw;
+        }
+
+        img {
+          max-width: 25vw;
+        }
+
+        section {
+          min-width: 60vw;
+          max-height: 40vh;
+          margin: 12rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <main>
+        <img src="images/image-qr-code.png" alt="QR CODE" />
+        <article>
+          <h3>Improve your front-end skills by building projects</h3>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </article>
+      </main>
+    </section>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a target="_blank" href="https://github.com/christy313">Christy</a>.
+    </footer>
+  </body>
+</html>
