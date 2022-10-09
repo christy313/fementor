@@ -32,6 +32,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS5
 - Flexbox
 
+### What I have learned
+
+- Accessibility
+  - Page should contain a level-one heading
+
+- HTML Validations
+
+  - The main element must not appear as a descendant of the section element.
+
+
 ### Continued development
 
 Make more break points
