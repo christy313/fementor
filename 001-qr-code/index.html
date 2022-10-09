@@ -15,7 +15,7 @@
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-      body {
+      /* body {
         background: #d6e2f0;
         font-family: "Outfit", sans-serif;
         display: flex;
@@ -106,6 +106,58 @@
         img {
           max-width: 25vw;
         }
+      } */
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #d6e2f0;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+      }
+
+      main {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        align-content: center;
+      }
+
+      .section {
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px;
+      }
+
+      img {
+        border-radius: 15px;
+        width: 250px;
+        height: 250px;
+      }
+
+      .h1 {
+        font-weight: 700;
+        font-size: 15px;
+        width: 200px;
+        margin: auto;
+        padding: 8px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 15px;
+        width: 235px;
+        margin: auto;
+        color: hsl(220, 15%, 55%);
+        padding: 8px;
+      }
+
+      footer {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: absolute;
       }
     </style>
   </head>
@@ -119,13 +171,13 @@
           to the next level
         </p>
       </section>
+      <footer>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a target="_blank" href="https://github.com/christy313">Christy</a>.
+      </footer>
     </main>
-    <footer>
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a target="_blank" href="https://github.com/christy313">Christy</a>.
-    </footer>
   </body>
 </html>

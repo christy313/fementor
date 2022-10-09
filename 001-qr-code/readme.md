@@ -34,17 +34,21 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I have learned
 
+- Think about structure first
+
+- Try to imagine the completed view in different view port 
+
 - Accessibility
+
   - [Page should contain a level-one heading](https://dequeuniversity.com/rules/axe/4.3/page-has-heading-one?application=axeAPI)
 
 - HTML Validations
 
   - The main element must not appear as a descendant of the section element.
 
-
 ### Continued development
 
-Make more break points
+Improve rwd above 1440px
 
 ### Useful resources
 
