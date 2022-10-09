@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Code](https://github.com/christy313/fementor/tree/main/002-product-preview)
+- [Live Demo](https://fementor-002-product-review.netlify.app/)
 
 ## My process
 
