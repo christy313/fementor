@@ -35,7 +35,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I have learned
 
 - Accessibility
-  - Page should contain a level-one heading
+  - [Page should contain a level-one heading](https://dequeuniversity.com/rules/axe/4.3/page-has-heading-one?application=axeAPI)
 
 - HTML Validations
 
