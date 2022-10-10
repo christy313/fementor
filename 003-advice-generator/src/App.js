@@ -36,7 +36,7 @@ const App = () => {
       {error && <Error error={error} />}
       {!error && (
         <main className="main">
-          <h5 className="advice-id">ADVICE #{id}</h5>
+          <h1 className="advice-id">ADVICE #{id}</h1>
           <q className="content">{advice}</q>
           <img
             className="divider"
