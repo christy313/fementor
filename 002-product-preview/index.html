@@ -48,7 +48,7 @@
         border-radius: 8px;
       }
 
-      .product-img {
+      .product-img-mobile {
         width: 360px;
         height: auto;
         border-top-left-radius: 8px;
@@ -130,8 +130,7 @@
           width: 580px;
         }
 
-        .product-img {
-          content: url("./images/image-product-desktop.jpg");
+        .product-img-desktop {
           border-bottom-left-radius: 8px;
           border-top-right-radius: 0;
           width: 290px;
@@ -157,11 +156,17 @@
   </head>
   <body>
     <main class="main">
-      <img
-        class="product-img"
-        src="./images/image-product-mobile.jpg"
-        alt="perfume"
-      />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/image-product-desktop.jpg"
+        />
+        <img
+          class="product-img-mobile product-img-desktop"
+          src="./images/image-product-mobile.jpg"
+          alt="A perfume bottle"
+        />
+      </picture>
       <article class="article">
         <h4 class="product">perfume</h4>
         <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
@@ -171,7 +176,11 @@
         </p>
         <span class="discount">$149.99</span><span class="price">$169.99</span>
         <button class="btn-cart">
-          <img class="btn-icon" src="./images/icon-cart.svg" alt="btn-icon" />
+          <img
+            class="btn-icon"
+            src="./images/icon-cart.svg"
+            alt="A cart icon"
+          />
           <span>Add to Cart</span>
         </button>
       </article>

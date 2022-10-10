@@ -25,6 +25,14 @@ Users should be able to:
 
 ![](./images/002-product.webp)
 
+### What I have learned
+
+- [HTML <picture> Element](https://www.w3schools.com/html/html_images_picture.asp)
+
+  - The HTML <picture> element allows you to display different pictures for different devices or screen sizes.
+
+- The class would be in the image tag 
+
 ### Links
 
 - [Code](https://github.com/christy313/fementor/tree/main/002-product-preview)
