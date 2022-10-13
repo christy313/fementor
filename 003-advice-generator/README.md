@@ -44,7 +44,7 @@ Users should be able to:
 ### Links
 
 - [Code](https://github.com/christy313/fementor/tree/main/003-advice-generator)
-- [Live Demo](https://003-fementor-advice-generator.netlify.app/)
+- [Live Demo](https://fementor-003-advice-generator.netlify.app/)
 
 ## My process
 

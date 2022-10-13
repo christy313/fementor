@@ -6,8 +6,23 @@ const App = () => {
     <div>
       <div className="header">
         <h1>IP Address Tracker</h1>
-        <input type="text" />
-        <div>info</div>
+        <div className="search">
+          <input type="text" placeholder="192.212.174.101" />
+          <button>
+            <img src="icon-arrow.svg" alt="" />
+          </button>
+        </div>
+
+        <div className="info">
+          <div>IP ADDRESS</div>
+          <div>192.212.174.101</div>
+          <div>LOCATION</div>
+          <div>New York</div>
+          <div>TIMEZONE</div>
+          <div>UTC - 05:00</div>
+          <div>ISP</div>
+          <div>SpaceX Starlink</div>
+        </div>
       </div>
       <MapContainer
         className="map"

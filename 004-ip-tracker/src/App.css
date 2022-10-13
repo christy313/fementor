@@ -16,6 +16,45 @@
   width: 375px;
   text-align: center;
   height: 35vh;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.search {
+  /* line-height: 1.2rem; */
+  box-sizing: content-box;
+}
+
+input {
+  /* border-radius: 12px; */
+  padding: 10px 15px;
+  width: 280px;
+  outline: none;
+  border-width: 0px;
+}
+
+button {
+  background-color: black;
+  font-size: 22px;
+  width: 36px;
+  padding: 10px 15px;
+  border: none;
+}
+
+.info {
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  bottom: -30%;
+  z-index: 1;
+  border-radius: 12px;
+  padding: 20px;
 }
 
 .map {
